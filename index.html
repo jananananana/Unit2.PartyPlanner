@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <title>Party Planner</title>
+</head>
+<body>
+    <header>
+        <h1>Party Planner</h1>
+    </header>
+    <main>
+        <div class="page-container">
+            <form id="partyForm" class="c-party-form">
+                <label for="partyName">Party Name</label>
+                <input type="text" id="partyName" name="partyName">
+                <label for="partyDescription">Party Name</label>
+                <input type="text" id="partyDescription" name="partyDescription">
+                <label for="partyDate">Party Date</label>
+                <input type="datetime-local" id="partyDate" name="partyDate">
+                <button type="submit">Add Party</button>
+            </form>
+        </div>
+        <div class="page-container">
+            <h2>Party List</h2>
+            <ul id="partyList" class="c-party-list">
+                <li>Party 1</li>
+                <li>Party 2</li>
+                <li>Party 3</li>
+            </ul>
+        </div>
+
+
+    </main>
+    
+</body>
+</html>
