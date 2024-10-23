@@ -3,3 +3,42 @@
     max-width: 980px;
     text-align: center;
 }
+
+.main-heading {
+    margin-top: 2em;
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+}
+
+.
+
+.c-party-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    margin-top: 3em;
+}
+
+.c-party-form-button{
+    grid-column-end: 3;
+    margin-top: 1em;
+}
+
+.c-party-list {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.item {
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.item-inner {
+    padding: 1em;
+}
